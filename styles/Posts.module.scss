@@ -1,0 +1,13 @@
+.card {
+  margin-bottom: 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+
+.post {
+  display: flex;
+  justify-content: center;
+}

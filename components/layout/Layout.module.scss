@@ -1,0 +1,47 @@
+.wrapper {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  height: 40vh;
+
+  display: flex;
+
+  &__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+}
+
+.inner_layout {
+  display: flex;
+  justify-content: center;
+  background: #dcd6d6;
+}
+
+.sider {
+  height: 100%;
+  width: 100%;
+
+  &__image_left {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
+
+  &__image_right {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: right;
+  }
+}
+
+.content {
+  width: auto;
+  max-width: 40%;
+}
